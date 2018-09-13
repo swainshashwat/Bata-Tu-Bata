@@ -19,7 +19,8 @@ class Topic(models.Model):
 
     starter = models.ForeignKey(User, related_name='topics',
     on_delete=models.PROTECT)
-    
+
+    last_updated = models.DateTimeField(auto_now_add=True)
 
 class Post(models.Model):
     message = models.TextField(max_length=4000)
