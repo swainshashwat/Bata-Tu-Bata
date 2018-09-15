@@ -1,5 +1,5 @@
-# MERA BLOG :construction::construction::construction: ( under Construction )
-A Blog developed using the *Django* framework.
+# Khatti: A Tech Discussion Forum :construction::construction::construction: ( under Construction )
+A Discussion Forum developed using the *Django* framework.
 
 # How to get started
 ```
