@@ -17,3 +17,7 @@ cd ..
 python3 manage.py runserver
 
 ```
+## Run all the Tests
+```
+python3 manage.py test
+```
