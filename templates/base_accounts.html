@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1 class="container">
+            <a href="{% url 'home' %}">
+                <center>KHATTI</center>
+            </a>
+        </h1>
+        {% block content %}
+        {% endblock %}
+    </div>
+{% endblock %}
