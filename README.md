@@ -1,4 +1,4 @@
-# Khatti: A Tech Discussion Forum :construction::construction::construction: ( under Construction )
+# Khatti: A Tech Discussion Forum
 A Discussion Forum developed using the *Django* framework.
 
 # How to get started
